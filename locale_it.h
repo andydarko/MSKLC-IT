@@ -168,7 +168,7 @@ const uint8_t extended_ascii_it[] PROGMEM = {
 };
 
 const uint8_t utf8_it[] PROGMEM = {
-    0xc2, 0xb0, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_APOSTROPHE,		// °
+    	0xc2, 0xb0, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_APOSTROPHE,		// °
 	0xc3, 0xa0, 0x00, 0x00, KEY_NONE,	KEY_APOSTROPHE,         // à	
 	0xc3, 0xa7, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_SEMICOLON,     	// ç
 	0xc3, 0xa8, 0x00, 0x00, KEY_NONE,	KEY_LEFTBRACE,          // è
@@ -181,7 +181,7 @@ const uint8_t utf8_it[] PROGMEM = {
 };
 
 static hid_locale_t locale_it {
-    (uint8_t*)ascii_it, 128,
-    (uint8_t*)extended_ascii_it,  sizeof(extended_ascii_it) / 3,
-    (uint8_t*)utf8_it, sizeof(utf8_it) / 6
+    	(uint8_t*)ascii_it, 128,
+    	(uint8_t*)extended_ascii_it,  sizeof(extended_ascii_it) / 3,
+    	(uint8_t*)utf8_it, sizeof(utf8_it) / 6
 };
