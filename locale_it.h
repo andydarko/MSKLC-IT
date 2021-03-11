@@ -155,28 +155,28 @@ const uint8_t ascii_it[] PROGMEM = {
 };
 
 const uint8_t extended_ascii_it[] PROGMEM = {
-	/*[167, 0xa7]*/ 0xa7, KEY_MOD_LSHIFT, KEY_APOSTROPHE,       // °
-	/*[133, 0x85]*/ 0x85, KEY_NONE,	KEY_APOSTROPHE,             // à	
-	/*[135, 0x87]*/ 0x87, KEY_MOD_LSHIFT, KEY_SEMICOLON,        // ç
-	/*[138, 0x8a]*/ 0x8a, KEY_NONE,	KEY_LEFTBRACE,              // è
-	/*[130, 0x82]*/ 0x82, KEY_MOD_LSHIFT, KEY_LEFTBRACE,        // é
-	/*[141, 0x8d]*/ 0x8d, KEY_NONE,	KEY_EQUAL,                  // ì
-	/*[149, 0x95]*/ 0x95, KEY_NONE,	KEY_SEMICOLON,			    // ò
-	/*[156, 0x9c]*/ 0x9c, KEY_MOD_LSHIFT, KEY_3,                // £
-	/*[151, 0x97]*/ 0x97, KEY_NONE, KEY_BACKSLASH,				// ù
+	/*[167, 0xa7]*/ 0xa7, KEY_MOD_LSHIFT, KEY_APOSTROPHE,       	// °
+	/*[133, 0x85]*/ 0x85, KEY_NONE,	KEY_APOSTROPHE,             	// à	
+	/*[135, 0x87]*/ 0x87, KEY_MOD_LSHIFT, KEY_SEMICOLON,       	// ç
+	/*[138, 0x8a]*/ 0x8a, KEY_NONE,	KEY_LEFTBRACE,              	// è
+	/*[130, 0x82]*/ 0x82, KEY_MOD_LSHIFT, KEY_LEFTBRACE,        	// é
+	/*[141, 0x8d]*/ 0x8d, KEY_NONE,	KEY_EQUAL,			// ì
+	/*[149, 0x95]*/ 0x95, KEY_NONE,	KEY_SEMICOLON,			// ò
+	/*[156, 0x9c]*/ 0x9c, KEY_MOD_LSHIFT, KEY_3,                	// £
+	/*[151, 0x97]*/ 0x97, KEY_NONE, KEY_BACKSLASH,			// ù
 	/*[245, 0xf5]*/ 0xf5, KEY_MOD_LSHIFT, KEY_BACKSLASH,		// §
 };
 
 const uint8_t utf8_it[] PROGMEM = {
     0xc2, 0xb0, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_APOSTROPHE,		// °
 	0xc3, 0xa0, 0x00, 0x00, KEY_NONE,	KEY_APOSTROPHE,         // à	
-	0xc3, 0xa7, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_SEMICOLON,      // ç
+	0xc3, 0xa7, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_SEMICOLON,     	// ç
 	0xc3, 0xa8, 0x00, 0x00, KEY_NONE,	KEY_LEFTBRACE,          // è
-	0xc3, 0xa9, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_LEFTBRACE,      // é
+	0xc3, 0xa9, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_LEFTBRACE,      	// é
 	0xc3, 0xac, 0x00, 0x00, KEY_NONE,	KEY_EQUAL,              // ì
-	0xc3, 0xb2, 0x00, 0x00, KEY_NONE,	KEY_SEMICOLON,			// ò
-	0xc2, 0xa3, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_3,              // £
-	0xc3, 0xb9, 0x00, 0x00, KEY_NONE, KEY_BACKSLASH,			// ù
+	0xc3, 0xb2, 0x00, 0x00, KEY_NONE,	KEY_SEMICOLON,		// ò
+	0xc2, 0xa3, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_3,              	// £
+	0xc3, 0xb9, 0x00, 0x00, KEY_NONE, KEY_BACKSLASH,		// ù
 	0xc2, 0xa7, 0x00, 0x00, KEY_MOD_LSHIFT, KEY_BACKSLASH,		// §
 };
 
