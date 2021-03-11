@@ -1,3 +1,5 @@
-# MSKLC-IT
+# locale_it.h
 
-IT keyboard layout created with [Microsoft Layout Keyboard Creator 1.4]
+IT keyboard layout for Malduino n WiFiDuck
+
+made with <3
